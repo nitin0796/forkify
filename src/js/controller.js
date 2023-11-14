@@ -4,6 +4,7 @@ import viewRecipe from './view/viewRecipe.js';
 import SearchView from './view/searchView.js';
 import ViewResult from './view/resultView.js';
 import PaginationView from './view/paginationView.js';
+import ViewBookmark from './view/viewBookmark.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
@@ -19,12 +20,17 @@ const showRecipe = async function () {
     if (!id) return;
     ViewRecipe.renderingSpinner();
 
+    //0) update results view to mark selected search result
+    ViewResult.update(model.receipeIntoPage());
+    //update bookmarks
+    ViewBookmark.update(model.newState.bookmarks);
+
     // 1) Loading Recipe
     await model.loadRecipe(id);
 
     // 2) Rendering Recipe
     ViewRecipe.renderData(model.newState.recipeProp);
-    controlServings();
+    // controlServings();
   } catch (err) {
     viewRecipe.renderingError();
   }
@@ -32,12 +38,12 @@ const showRecipe = async function () {
 
 const controllerSearchResult = async function () {
   try {
-    //1) get search query
+    // 1) get search query
     const query = SearchView.getQuery();
     if (!query) return;
 
     ViewResult.renderingSpinner();
-    console.log(ViewResult);
+    // console.log(ViewResult);
 
     // 2)load search result
     await model.searchRecipe(query);
@@ -62,15 +68,31 @@ const controlPagination = function (goToPage) {
   PaginationView.renderData(model.newState.search);
 };
 
-const controlServings = function () {
+const controlServings = function (newServing) {
   //Update the servings in state
-  model.updateServings(8);
+  model.updateServings(newServing);
   //render the recipe view
-  ViewRecipe.renderData(model.newState.recipeProp);
+  // ViewRecipe.renderData(model.newState.recipeProp);
+  ViewRecipe.update(model.newState.recipeProp);
+};
+
+const controlBookmark = function () {
+  //1) Add/remove bookmarks
+  if (!model.newState.recipeProp.bookmarked)
+    model.addBookMark(model.newState.recipeProp);
+  else model.removeBookmark(model.newState.recipeProp.id);
+
+  //2) update recipe
+  viewRecipe.update(model.newState.recipeProp);
+
+  //3) Render bookmark
+  ViewBookmark.renderData(model.newState.bookmarks);
 };
 
 const init = function () {
   viewRecipe.eventRecipeRender(showRecipe);
+  viewRecipe.addHandlerUpdateServing(controlServings);
+  viewRecipe.addHandlerBookmark(controlBookmark);
   SearchView.eventSearchHandler(controllerSearchResult);
   PaginationView.eventPaginationHandler(controlPagination);
 };

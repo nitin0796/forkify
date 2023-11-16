@@ -2937,6 +2937,7 @@ class View {
     _data;
     renderData(data, render = true) {
         if (!data || Array.isArray(data) && data.length === 0) return this.renderingError();
+        this._data = data;
         if (!render) return this._generateMarkup();
         this._clear();
         this._parentEle.insertAdjacentHTML("afterbegin", this._generateMarkup());

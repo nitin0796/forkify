@@ -8,6 +8,7 @@ export default class View {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderingError();
 
+    this._data = data;
     if (!render) return this._generateMarkup();
 
     this._clear();

@@ -1991,7 +1991,7 @@ const addBookMark = function(recipe) {
 const removeBookmark = function(id) {
     // Remove bookmark
     const index = newState.bookmarks.findIndex((el)=>el.id === id);
-    newState.bookmarks.slice(index, 1);
+    newState.bookmarks.splice(index, 1);
     // Mark current recipe as not bookmarked
     if (id === newState.recipeProp.id) newState.recipeProp.bookmarked = false;
 };

@@ -67,14 +67,13 @@ export const receipeIntoPage = function (page = newState.search.page) {
 
   const start = (page - 1) * newState.search.resultPerPage;
   const end = page * newState.search.resultPerPage;
-  console.log(start, end);
 
   return newState.search.results.slice(start, end);
 };
 
 export const updateServings = function (newServing) {
   newState.recipeProp.ingredients.forEach(ing => {
-    //formula (oldQuantity * newServings / oldServings)
+    // formula (oldQuantity * newServings / oldServings)
     ing.quantity = (ing.quantity * newServing) / newState.recipeProp.servings;
   });
 
@@ -82,17 +81,19 @@ export const updateServings = function (newServing) {
 };
 
 export const addBookMark = function (recipe) {
-  //Adding Bookmark
+  // Adding Bookmark
   newState.bookmarks.push(recipe);
 
-  //Mark current recipe as bookmark
+  // Mark current recipe as bookmark
   if (recipe.id === newState.recipeProp.id)
     newState.recipeProp.bookmarked = true;
 };
 
 export const removeBookmark = function (id) {
+  // Remove bookmark
   const index = newState.bookmarks.findIndex(el => el.id === id);
   newState.bookmarks.slice(index, 1);
 
+  // Mark current recipe as not bookmarked
   if (id === newState.recipeProp.id) newState.recipeProp.bookmarked = false;
 };

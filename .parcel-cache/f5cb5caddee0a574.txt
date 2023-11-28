@@ -1,4 +1,4 @@
-9587
+9588
 73D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules133422214047989913 1
 96D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\dom-serializer\LICENSE133422207876184609 0
 103D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\string\strike.js133422213321728795 0
@@ -7,8 +7,8 @@
 124D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\input-file-directory.js133422207896997379 0
 114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\use-strict.js133422207901715093 0
 95D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\sass\types\index.d.ts133422208081785041 0
-72D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\view133444718985103077 1
-84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\icons.dfd7a6db.svg133446270108340388 0
+72D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\view133448245074316862 1
+84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\icons.dfd7a6db.svg133456683689540893 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\symbol\is-well-known.js133422213308375801 0
 96D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\semver\functions\lt.js133422207883756312 0
 127D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\lib\generator\sourceMap.js133422207893651468 0
@@ -42,7 +42,7 @@
 100D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\math\expm1.js133422213294143393 0
 127D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\lib\syntax\node\AnPlusB.js133422207890926662 0
 83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lru-cache133422207877995913 1
-65D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist133446271665902607 1
+65D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist133456693971515755 1
 105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@swc\helpers\_\_super_prop_base133422207894809293 1
 94D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\nullthrows\README.md133422207879500094 0
 92D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@swc\types\LICENSE133422207876255958 0
@@ -132,7 +132,7 @@
 107D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\es.object.keys.js133422213287951050 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\diagnostic\src\diagnostic.js133422207878111214 0
 108D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\cjs\lexer\match-graph.cjs133422207888734567 0
-81D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\controller.js133444742990357505 0
+81D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\controller.js133456677066006290 0
 69D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\sass133422204749152193 1
 109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\node-addon-api\package-support.json133422207883208035 0
 103D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\posthtml-parser\dist\index.js133422207877731426 0
@@ -211,13 +211,26 @@
 126D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\declarative-shadow-dom.js133422207894392681 0
 87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\write.js133422207891284903 0
 88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\sass\README.md133422208081526878 0
-76D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\model.js133446271445927200 0
+76D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\model.js133456694674293200 0
 111D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\lib\walker133422207892819953 1
 111D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\number\to-exponential.js133422213323497730 0
 107D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\es.parse-float.js133422213288082877 0
 143D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\common133422207890468288 1
 107D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\utils\src\alternatives.js133422207879524804 0
 129D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\lib\syntax\node\Dimension.js133422207892010322 0
+92D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\globals\index.d.ts133422207879857416 0
+119D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\background-sync.js133422207887413073 0
+105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\runtime-browser-hmr\lib133422207879389335 1
+101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\lib\utils\index.js133422207892931269 0
+103D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\stable\string\bold.js133422213281099723 0
+102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\cjs\syntax\function133422207890949661 1
+114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\array\virtual\to-spliced.js133422213325170919 0
+86D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\browserslist133422207881516486 1
+89D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\view\addRecipeView.js133456407927066528 0
+88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\dotenv\LICENSE133422207878233721 0
+131D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaQuery.cjs133422207888709811 0
+97D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\chrome-trace-event\dist133422207879479226 1
+106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\type-fest\source\promisable.d.ts133422207884710583 0
 92D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\.package-lock.json133422214050167312 0
 100D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\array\of.js133422213313537772 0
 89D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\index.d.ts133422207891674807 0
@@ -274,7 +287,7 @@
 104D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\detect-libc\bin\detect-libc.js133422207879173902 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\array\includes.js133422213302359028 0
 90D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\profiler133422207881981180 1
-88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\view\viewBookmark.js133444743517595761 0
+88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\src\js\view\viewBookmark.js133448236083368774 0
 97D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\react-error-overlay\lib133422207876906994 1
 148D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133422207878945020 0
 129D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Brackets.cjs133422207881681558 0
@@ -291,13 +304,6 @@
 109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-select\lib\esm\compile.d.ts.map133422207885572338 0
 93D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\cosmiconfig\LICENSE133422207876234902 0
 93D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\semver\package.json133422207886567451 0
-102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\nth-check\lib\index.d.ts.map133422207882414974 0
-114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@swc\helpers\_\_class_private_method_set133422207893465309 1
-109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\postcss-value-parser\lib\index.d.ts133422207881024909 0
-87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\color-convert133422207879932421 1
-118D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\transformer-html\lib\dependencies.js133422207877104396 0
-141D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\CDC.js133422207881923169 0
-101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\to-regex-range\package.json133422207876215137 0
 147D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\config\mix.js133422207889414645 0
 119D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\es.typed-array.uint8-array.js133422213290139024 0
 102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\workers\src\index.js133422207883311984 0
@@ -388,14 +394,6 @@
 123D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-svgo\node_modules\svgo\bin\svgo133422207877169799 0
 82D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\boolbase133422207877280079 1
 111D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\svgo\plugins\moveGroupAttrsToElems.js133422207884999377 0
-92D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\globals\index.d.ts133422207879857416 0
-119D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\background-sync.js133422207887413073 0
-105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\runtime-browser-hmr\lib133422207879389335 1
-101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\lib\utils\index.js133422207892931269 0
-103D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\stable\string\bold.js133422213281099723 0
-102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\cjs\syntax\function133422207890949661 1
-114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\array\virtual\to-spliced.js133422213325170919 0
-86D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\browserslist133422207881516486 1
 144D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\package.json133422207879259294 0
 91D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\entities\lib\maps133422207882208791 1
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\math\seeded-prng.js133422213317987150 0
@@ -404,6 +402,13 @@
 113D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\typed-array\int32-array.js133422213306458968 0
 92D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\chrome-trace-event133422207880056062 1
 117D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\esnext.array.to-reversed.js133422213290675987 0
+102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\nth-check\lib\index.d.ts.map133422207882414974 0
+114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@swc\helpers\_\_class_private_method_set133422207893465309 1
+109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\postcss-value-parser\lib\index.d.ts133422207881024909 0
+87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\color-convert133422207879932421 1
+118D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\transformer-html\lib\dependencies.js133422207877104396 0
+141D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\CDC.js133422207881923169 0
+101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\to-regex-range\package.json133422207876215137 0
 84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\color-name133422207878009805 1
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\internals\collection-weak.js133422213282151909 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\es.string.pad-end.js133422213288899970 0
@@ -472,8 +477,8 @@
 105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\regions\IS.js133422207897258513 0
 109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\caniuse-lite\data\features\fetch.js133422207895259754 0
 82D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\domutils133422207883168096 1
-101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lightningcss\node\index.mjs133422207882319972 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\dependencies\lz4\lib\lz4frame.c133422207885708852 0
+101D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lightningcss\node\index.mjs133422207882319972 0
 125D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\esnext.reflect.get-metadata-keys.js133422213292481658 0
 121D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\modules\es.typed-array.last-index-of.js133422213289841305 0
 80D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\dotenv133422207879339231 1
@@ -747,12 +752,12 @@
 98D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\term-size\vendor\windows133422207879339231 1
 102D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\weak-lru-cache\tests\test.js133422207879721521 0
 97D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\object133422213328933332 1
-89D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\yallist\LICENSE133422207876184609 0
 100D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\es\object\proto.js133422213315060596 0
 93D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\weak-lru-cache\dist133422207876234902 1
 113D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\weak-map\delete-all.js133422213284180067 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\lib\lexer133422207893889118 1
 105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\sass\types\legacy\importer.d.ts133422208081760003 0
+89D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\yallist\LICENSE133422207876184609 0
 104D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\map\reduce.js133422213316191181 0
 121D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\data-view\get-uint8-clamped.js133422213300428023 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\symbol\pattern-match.js133422213314701126 0
@@ -1051,7 +1056,7 @@
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\instance\entries.js133422213285611036 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\workers\test\integration133422207881320445 1
 105D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\update-browserslist-db\utils.js133422207878841743 0
-86D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\favicon.8b2f57bf.png133446270108587715 0
+86D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\favicon.8b2f57bf.png133456683689872968 0
 93D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\type-fest\base.d.ts133422207879819715 0
 110D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\es\array\virtual\includes.js133422213302621858 0
 111D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@swc\helpers\_\_ts_param\package.json133422207895099112 0
@@ -1191,7 +1196,6 @@
 91D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\nth-check\LICENSE133422207876162435 0
 108D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\type-fest\source\package-json.d.ts133422207884293269 0
 96D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\to-regex-range\LICENSE133422207877566815 0
-106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\type-fest\source\promisable.d.ts133422207884710583 0
 109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\type-fest\source\promise-value.d.ts133422207884813064 0
 115D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\reflect\is-extensible.js133422213307040818 0
 104D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\string\big.js133422213280523156 0
@@ -2538,7 +2542,7 @@
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\cjs\syntax\node\Url.cjs133422207890799182 0
 114D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\mdn-data\l10n\index.js133422207879379270 0
 88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\README.md133422207891579722 0
-83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.e37f48ea.js133446271665790201 0
+83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.e37f48ea.js133456693971444352 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\dependencies\lmdb\libraries133422207878570571 1
 112D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\full\instance\filter-reject.js133422213294737794 0
 90D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\lmdb\SECURITY.md133422207891621884 0
@@ -3348,9 +3352,6 @@
 111D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\internals\regexp-get-flags.js133422213316517486 0
 93D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\browserslist\cli.js133422207877623699 0
 112D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\lib\tokenizer\adopt-buffer.js133422207891124866 0
-88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\dotenv\LICENSE133422207878233721 0
-131D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaQuery.cjs133422207888709811 0
-97D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\chrome-trace-event\dist133422207879479226 1
 115D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\features\data-view\set-float16.js133422213318115663 0
 90D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\dotenv\README.md133422207879032069 0
 104D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\stable\symbol\split.js133422213321341059 0
@@ -4230,7 +4231,7 @@
 109D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\internals\ie8-dom-define.js133422213301827387 0
 127D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\rust\parcel-node-bindings.linux-x64-musl.node133422207905744782 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\css-tree\cjs\tokenizer\names.cjs133422207889219359 0
-83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\logo.726d37a8.png133446270108477681 0
+83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\logo.726d37a8.png133456683689560897 0
 127D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-svgo\node_modules\csso\package.json133422207887145324 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\stable\array\flat-map.js133422213297217211 0
 115D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\@parcel\optimizer-css\lib\CSSOptimizer.js133422207877127438 0
@@ -7431,7 +7432,7 @@
 119D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\is-concat-spreadable.js133422213306790932 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\key-for.js133422213309738450 0
 108D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\match-all.js133422213311738008 0
-84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\icons.21bad73c.svg133446270108340388 0
+84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\icons.21bad73c.svg133456683689455318 0
 107D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\metadata.js133422213312564091 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\replace.js133422213317090985 0
 106D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\core-js\actual\symbol\species.js133422213320420529 0
@@ -9581,8 +9582,8 @@
 83D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\.bin\svgo133422207908317668 0
 87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\node_modules\.bin\svgo.ps1133422207908317668 0
 87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.62406edb.js.map133422208112348144 0
-87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.e37f48ea.js.map133446271665892072 0
-84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.f7626f62.css133446270108370935 0
-88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.f7626f62.css.map133446270108467697 0
-76D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.html133446140995846343 0
+87D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.e37f48ea.js.map133456693971505507 0
+84D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.f7626f62.css133456683689540893 0
+88D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.f7626f62.css.map133456683689580850 0
+76D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\index.html133456296277769313 0
 89D:\VSCode\Udemy_JS\complete-javascript-course-master\starter\dist\starter.3464ddca.js.map133422208112348144 0

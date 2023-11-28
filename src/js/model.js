@@ -80,6 +80,10 @@ export const updateServings = function (newServing) {
   newState.recipeProp.servings = newServing;
 };
 
+const persistBookmark = function () {
+  localStorage.setItem('bookmarks', JSON.stringify(newState.bookmarks));
+};
+
 export const addBookMark = function (recipe) {
   // Adding Bookmark
   newState.bookmarks.push(recipe);
@@ -87,6 +91,8 @@ export const addBookMark = function (recipe) {
   // Mark current recipe as bookmark
   if (recipe.id === newState.recipeProp.id)
     newState.recipeProp.bookmarked = true;
+
+  persistBookmark();
 };
 
 export const removeBookmark = function (id) {
@@ -96,4 +102,50 @@ export const removeBookmark = function (id) {
 
   // Mark current recipe as not bookmarked
   if (id === newState.recipeProp.id) newState.recipeProp.bookmarked = false;
+
+  persistBookmark();
+};
+
+const init = function () {
+  const storage = localStorage.getItem('bookmarks');
+  if (storage) newState.bookmarks = JSON.parse(storage);
+};
+
+init();
+
+// clearBookmarks();
+const clearBookmarks = function () {
+  localStorage.clear('bookmarks');
+};
+
+export const uploadRecipe = async function (newRecipe) {
+  try {
+    const ingredients = Object.entries(newRecipe)
+      .filter(entry => entry[0].startsWith('ingredient') && entry[1] !== '')
+      .map(ing => {
+        const ingArr = ing[1].replaceAll(' ', '').split(',');
+        if (ingArr !== 3)
+          throw new Error(
+            'Wrong ingredient format! Please try correct one :) '
+          );
+
+        const [quantity, unit, description] = ingArr;
+
+        return { quantity: quantity ? +quantity : null, unit, description };
+      });
+
+    const recipe = {
+      title: newRecipe.title,
+      source_url: newRecipe.sourceUrl,
+      image_url: newRecipe.image,
+      publisher: newRecipe.publisher,
+      cooking_time: +newRecipe.cookingTime,
+      servings: +newRecipe.servings,
+      ingredients,
+    };
+
+    console.log(recipe);
+  } catch (err) {
+    throw err;
+  }
 };
